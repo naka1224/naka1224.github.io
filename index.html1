@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="ja">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>
+        <{$page.title}>
+    </title>
+    <link rel="shortcut icon" type="image/ico" href="<{$shop.favicon_url}>">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="<{$page.title}>">
+    <meta property="og:description" content="<{$page.description}>">
+    <meta property="og:site_name" content="<{$shop.name}>">
+    <meta name="twitter:card" content="Summary with Large Image">
+    <{$makeshop.head}>
+        <link rel="stylesheet" href="<{$page.css}>">
+</head>
+
+<body>
+    <{$makeshop.body_top}>
+        <{$module.header}>
+
+            <div class="wrap subpage aboutpage">
+                <div class="main-contents">
+                    <h2 class="section-title guide-title"><span class="section-title-deco">Link-Shopとは</span></h2>
+                    <p><img src="https://gigaplus.makeshop.jp/linkagri/about-copy.png"
+                            alt="全国各地の見たことがないブランド商品を、食べて、触って、体験する旅に出よう！" class="about-copy" width="533"></p>
+                    <ul class="about-point">
+                        <li>
+                            <h3>全国各地のブランド商品を<br>ネット上で簡単に購入できる！</h3>
+                            <p>普段目にしない健康的で質の高いブランド商品を取り扱います！</p>
+                        </li>
+                        <li>
+                            <h3>Linkboxで<br>新商品と出会える！</h3>
+                            <p>価格自由で中身秘密の新しい購入方法で、自然と抵抗なく新商品に出会えます！<span class="note">※数量、実施期間は限定</span></p>
+                        </li>
+                        <li>
+                            <h3>生産者や商品の特徴を<br>詳しくご紹介！</h3>
+                            <p>商品の効能、生産者のこだわりなど、商品に関する様々な情報を分かりやすくお伝えします！</p>
+                        </li>
+                    </ul>
+                    <div class="about-box">
+                        <h3>価格自由 & 中身秘密のLinkboxで新しいブランド商品に出会おう！</h3>
+                        <ul>
+                            <li>
+                                <h4><span class="box-num">特徴1</span>Linkboxの中身は秘密！</h4>
+                                <img src="https://gigaplus.makeshop.jp/linkagri/icon-box.png" alt="" width="80">
+                                <p>Linkboxの中には商品が5~8品（時期によっては変更もあります）ほど入っていますが、その内容は商品が到着してからのお楽しみです！</p>
+                            </li>
+                            <li>
+                                <h4><span class="box-num">特徴2</span>お支払い額は自由！</h4>
+                                <img src="https://gigaplus.makeshop.jp/linkagri/icon-money.png" alt="" width="89">
+                                <p>ご自宅にLinkboxが到着後に、お客様自身でお支払いする価格を決めていただきます。そのため、商品の価格に抵抗を感じて購入を断念することなく、新しいブランド商品に出会うことができます！
+                                </p>
+                            </li>
+                            <li>
+                                <h4><span class="box-num">特徴3</span>新しいワクワクする購入体験を<br>ご提供します！</h4>
+                                <img src="https://gigaplus.makeshop.jp/linkagri/icon-joy.png" alt="" width="106">
+                                <p>実家から届く仕送り、友人や恋人からのプレゼントなど、中身は何が入っているか分からない箱を開ける瞬間、あのワクワクを体験できます！</p>
+                            </li>
+                        </ul>
+                        <div class="box-attention">
+                            <p class="box-attention-title"> 【注意】</p>
+                            <p>※Linkboxの中に苦手な商品が入っている場合もあります。<br>
+                                その場合、ご友人やご親族へプレゼント品として歓迎していただける方のみご購入いただければと思います。何卒ご了承ください。</p>
+                        </div>
+                    </div>
+                    <p class="about-end-copy">さっそくLink-Shopで全国各地のブランド品に出会う旅に出よう！</p>
+                    <a href="<{$url.member_entry}>" class="btn btn-flat"><span class="note">\ 簡単・60秒 /</span><br>会員登録はこちら<i class="fa fa-caret-right"></i></a>
+                    
+                    <div class="company">
+                        <h2 class="section-title guide-title"><span class="section-title-deco">会社概要</span></h2>
+                        <section class="contract-wrap">
+                            <dl class="contract-item">
+                                <dt class="contract-title"> 団体名 </dt>
+                                <dd class="contract-content"> Link（個人事業主） </dd>
+                            </dl>
+                            <dl class="contract-item">
+                                <dt class="contract-title"> 所在地 </dt>
+                                <dd class="contract-content"> 神奈川県川崎市高津区久本2丁目9-11-205 </dd>
+                            </dl>
+                            <dl class="contract-item">
+                                <dt class="contract-title"> 連絡先 </dt>
+                                <dd class="contract-content"> naka1203.ids.link@gmail.com </dd>
+                            </dl>
+                            <dl class="contract-item">
+                                <dt class="contract-title"> 設立 </dt>
+                                <dd class="contract-content"> 2019年2月 </dd>
+                            </dl>
+                            <dl class="contract-item">
+                                <dt class="contract-title"> 代表 </dt>
+                                <dd class="contract-content"> 中島 健吾 </dd>
+                            </dl>
+                            <dl class="contract-item">
+                                <dt class="contract-title"> メンバー </dt>
+                                <dd class="contract-content"> 3人 </dd>
+                            </dl>
+                        </section>
+                    </div>
+                </div>
+
+                <{$module.footer}>
+            </div>
+
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <script src="<{$page.javascript}>"></script>
+            <{$makeshop.body_bottom}>
+</body>
+
+</html>
